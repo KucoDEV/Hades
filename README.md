@@ -1,68 +1,39 @@
-<div align="center">
+# ⚠️ Hades Software
 
-<a href="https://gowebly.org" target="_blank" title="Go to the Gowebly CLI website"><img width="196px" alt="gowebly logo" src="https://raw.githubusercontent.com/gowebly/.github/main/images/gowebly-logo.svg"></a>
+## 📜 Description
 
-<a name="readme-top"></a>
+**Hades Software** est une application développée en Python avec Tkinter, qui intègre plusieurs fonctionnalités d'automatisation dans un environnement de jeu. L'application se connecte à Internet pour récupérer certaines données et possède une interface utilisateur interactive.
 
-# The HADES Client
+## ⚡ Fonctionnalités
 
-A next-generation Minecraft cheat that will help you in your journey to the dragon
+- Interface graphique simple avec Tkinter.
+- Boutons interactifs pour activer différentes fonctionnalités (Auto Mine, Auto Kill, Aimbot, etc.).
+- Utilisation d'une API pour la détection des VPN.
+- Récupération et envoi de l'adresse IP à un serveur externe.
 
-**&searr;&nbsp;&nbsp;The official documentation&nbsp;&nbsp;&swarr;**
+## 🛠️ Prérequis
 
-[English](https://github.com/KucoDEV/Hades/blob/main/README.md)
+Assurez-vous d'avoir Python installé sur votre machine ainsi que les modules suivants :
 
-**&searr;&nbsp;&nbsp;Share the project's link to your friends&nbsp;&nbsp;&swarr;**
+```
+pip install requests
+```
 
-[![Share on X][x_share_img]][x_share_url]
-[![Share on Telegram][telegram_share_img]][telegram_share_url]
-[![Share on Reddit][reddit_share_img]][reddit_share_url]
+## 🚀 Installation et exécution
 
-</div>
+1. Clonez ce repository ou téléchargez le fichier `Hades.pyw`.
+2. Exécutez le script avec la commande :
+   ```
+   python Hades.pyw
+   ```
+3. Une interface graphique s'ouvrira avec différentes options d'automatisation.
 
-## ✨ Features
+## ⚠️ Avertissement
 
-- 100% **free** and **open source**!
-- For **any** developer's level of knowledge and technical expertise, as the intelligent tool does most of the routine project setup for you, creates an understandable structure, and prepares code for use and deployment in production.
-- Enables you to **start a new minecraft world easier**.
-- Ready-to-use cheats that can run in **any environment**.
+Ce programme contient des fonctionnalités potentiellement malveillantes (récupération d'adresse IP et exécution de scripts tiers). Son utilisation peut enfreindre les conditions d'utilisation de certains services.
 
-## ⚡️ Quick start
+**Nous déconseillons fortement son utilisation à des fins non éthiques.**
 
-First, [download](https://www.python.org/downloads/) and install **Python**. Version `3.10` (or higher) is required for the code generated.
+## 📜 Licence
 
-Now, you can use the **Hades** without installation. Just run the python file!
-
-That's it! 🔥 A wonderful web application to help you create TKinter window.
-
-<div align="right">
-
-[&nwarr; Back to top](#readme-top)
-
-</div>
-
-## 🌟 Stars
-
-<picture>
-  <source srcset="https://api.star-history.com/svg?repos=KucoDEV/Hades&type=Date&theme=dark"/>
-  <img width="100%" alt="The Gowebly CLI star history chart" src="https://api.star-history.com/svg?repos=KucoDEV/Hades&type=Date"/>
-</picture>
-
-## ⚠️ License & Disclaimer
-
-[`The Hades`][repo_url] is free and open-source software licensed under the [Apache 2.0 License].
-
-You are the one and only one if you get banned anywhere.
-This is only for educational purposes!
-
-<!-- Repository links -->
-[repo_url]: https://github.com/KucoDEV/Hades
-
-<!-- Social links -->
-[x_share_url]: https://x.com
-[telegram_share_url]: https://t.me
-[reddit_share_url]: https://www.reddit.com
-[x_share_img]: https://img.shields.io/badge/x_(twitter)-black?style=for-the-badge&logo=x
-[telegram_share_img]: https://img.shields.io/badge/telegram-black?style=for-the-badge&logo=telegram
-[whatsapp_share_img]: https://img.shields.io/badge/whatsapp-black?style=for-the-badge&logo=whatsapp
-[reddit_share_img]: https://img.shields.io/badge/reddit-black?style=for-the-badge&logo=reddit
+Ce projet est sous licence MIT. Vous êtes libre de le modifier et de le redistribuer.
