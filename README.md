@@ -2,38 +2,38 @@
 
 ## 📜 Description
 
-**Hades Software** est une application développée en Python avec Tkinter, qui intègre plusieurs fonctionnalités d'automatisation dans un environnement de jeu. L'application se connecte à Internet pour récupérer certaines données et possède une interface utilisateur interactive.
+**Hades Software** is an application developed in Python with Tkinter, integrating multiple automation features in a gaming environment. The application connects to the Internet to retrieve certain data and has an interactive user interface.
 
-## ⚡ Fonctionnalités
+## ⚡ Features
 
-- Interface graphique simple avec Tkinter.
-- Boutons interactifs pour activer différentes fonctionnalités (Auto Mine, Auto Kill, Aimbot, etc.).
-- Utilisation d'une API pour la détection des VPN.
-- Récupération et envoi de l'adresse IP à un serveur externe.
+- Simple graphical interface with Tkinter.
+- Interactive buttons to activate various features (Auto Mine, Auto Kill, Aimbot, etc.).
+- Use of an API for VPN detection.
+- Retrieval and transmission of the IP address to an external server.
 
-## 🛠️ Prérequis
+## 🛠️ Prerequisites
 
-Assurez-vous d'avoir Python installé sur votre machine ainsi que les modules suivants :
+Make sure you have Python installed on your machine as well as the following modules:
 
 ```
 pip install requests
 ```
 
-## 🚀 Installation et exécution
+## 🚀 Installation and Execution
 
-1. Clonez ce repository ou téléchargez le fichier `Hades.pyw`.
-2. Exécutez le script avec la commande :
+1. Clone this repository or download the `Hades.pyw` file.
+2. Run the script with the command:
    ```
    python Hades.pyw
    ```
-3. Une interface graphique s'ouvrira avec différentes options d'automatisation.
+3. A graphical interface will open with various automation options.
 
-## ⚠️ Avertissement
+## ⚠️ Warning
 
-Ce programme contient des fonctionnalités potentiellement malveillantes (récupération d'adresse IP et exécution de scripts tiers). Son utilisation peut enfreindre les conditions d'utilisation de certains services.
+This program contains potentially malicious features (IP address retrieval and execution of third-party scripts). Its use may violate the terms of service of certain platforms.
 
-**Nous déconseillons fortement son utilisation à des fins non éthiques.**
+**We strongly discourage its use for unethical purposes.**
 
-## 📜 Licence
+## 📜 License
 
-Ce projet est sous licence MIT. Vous êtes libre de le modifier et de le redistribuer.
+This project is licensed under the MIT license. You are free to modify and redistribute it.
